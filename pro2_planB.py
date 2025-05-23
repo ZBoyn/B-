@@ -4,15 +4,13 @@ from pro1_util import read_data
 from pro2_util import read_waste_data,calculate_distance
 
 data = dict()
-n, coords, w, Q, distance_matrix = read_data('pro1.xlsx')
+n, coords, _, _, distance_matrix = read_data('pro1.xlsx')
 # waste_types = ['cy', 'hs', 'ys', 'qt']
-
-# w = read_waste_data('pro2.xlsx', type='qt')
 
 # Q = {'cy': 8, 'hs': 6, 'ys': 3, 'qt': 10}       # 各类车辆容量上限
 # C = {1: 2.5, 2: 2, 3: 5, 4: 1.8}    # 各类车辆单位距离成本系数
-
-# Q = 10
+w = read_waste_data('pro2.xlsx', 'cy')
+Q = 8
 
 data['distance_matrix'] = distance_matrix
 data['num_vehicles'] = 1000

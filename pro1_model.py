@@ -4,9 +4,10 @@ from gurobipy import GRB
 from pro1_util import read_data, calculate_distance
 import json
 
-n, coords, w, Q = read_data('pro1.xlsx')
+n, coords, w, Q, _ = read_data('pro1.xlsx')
 d, nodes = calculate_distance(n, coords)
 
+# print("Distance matrix:", d)
 
 model = gp.Model("VRP_single")
 

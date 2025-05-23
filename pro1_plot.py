@@ -72,7 +72,7 @@ def visualize_routes_subplots(routes, coords, assign):
     plt.show()
 
 def main():
-    _, coords, _, _ = read_data('pro1.xlsx')
+    _, coords, _, _,_ = read_data('pro1.xlsx')
     
     routes = [[0, 2, 11, 0], [0 , 3 , 19 , 0], [0 , 4 , 15 , 0],[0 , 5 , 22 , 0],
               [0 , 6 , 13 , 0],[0 , 7 , 30 , 0],[0 , 9 , 14 , 0],[0 , 12 , 24 , 27 , 0],[0 , 17 , 8 , 0],
