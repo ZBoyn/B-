@@ -50,7 +50,7 @@ def visualize_routes_subplots(routes, coords, assign):
         y_coords = [coords[i][1] for i in range(len(coords))]
         
         ax.scatter(x_coords[0], y_coords[0], c='red', s=200, marker='*', label='处理站')
-        ax.scatter(x_coords[1:], y_coords[1:], c='blue', s=100, label='收集点')
+        ax.scatter(x_coords[1:], y_coords[1:], c='blue', s=50, label='收集点')
         
         for i in range(len(coords)):
             ax.annotate(str(i), (x_coords[i], y_coords[i]), xytext=(5, 5), textcoords='offset points')

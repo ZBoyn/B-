@@ -1,7 +1,7 @@
 import math
 import gurobipy as gp
 from gurobipy import GRB
-from por1_util import read_data, calculate_distance
+from pro1_util import read_data, calculate_distance
 import json
 
 n, coords, w, Q = read_data('pro1.xlsx')

@@ -15,7 +15,19 @@ def read_data(file_path):
     w[0] = 0
     
     Q = 5
-    return n, coords, w, Q
+    
+    # 生成距离矩阵
+    distance_matrix = []
+    for i in range(n + 1):
+        row = []
+        for j in range(n+ 1):
+            xi, yi = coords[i]
+            xj, yj = coords[j]
+            dist = np.hypot(xi - xj, yi - yj)  # 计算欧几里得距离
+            row.append(round(dist, 3))  # 保留三位小数
+        distance_matrix.append(row)
+        
+    return n, coords, w, Q, distance_matrix
 
 def calculate_distance(n, coords):
     nodes = list(range(0, n+1))
@@ -60,6 +72,7 @@ def build_vehicle_routes(assign, routes):
     return veh_routes
 
 if __name__ == "__main__":
-    n, coords, w = read_data('pro1.xlsx')
-    d = calculate_distance(n, coords)
-    print(d)
+    n, coords, w, Q = read_data('pro1.xlsx')
+    print(w)
+    # d = calculate_distance(n, coords)
+    # print(d)
