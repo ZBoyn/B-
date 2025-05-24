@@ -1,57 +1,64 @@
+total_cost(包括路费都算了)  = 2791
+
 cy
 ----- FLEET SIZE SPECIFIED: SET TO 1000 VEHICLES
 ----- INSTANCE SUCCESSFULLY LOADED WITH 30 CLIENTS AND 1000 VEHICLES
 ----- BUILDING INITIAL POPULATION
 ----- STARTING GENETIC ALGORITHM
-It      0      2 | T(s) 0.35 | Feas 33 412.28 418.45 | Inf 54 407.18 411.44 | Div 0.57 0.49 | Feas 0.06 1.00 | Pen 20.95 0.85
-It    500    294 | T(s) 1.88 | Feas 41 411.62 413.80 | Inf 58 407.33 409.27 | Div 0.51 0.37 | Feas 0.13 1.00 | Pen 30.78 0.38
-It   1000      2 | T(s) 3.42 | Feas 64 411.44 413.24 | Inf 41 407.34 410.54 | Div 0.43 0.49 | Feas 0.15 1.00 | Pen 31.39 0.17
------ GENETIC ALGORITHM FINISHED AFTER 1497 ITERATIONS. TIME SPENT: 5.003
-cost:  411.444 * 2.5 = 1028.61
-time:  5.003
+It      0      2 | T(s) 0.32 | Feas 37 410.00 415.88 | Inf 50 405.67 409.51 | Div 0.56 0.49 | Feas 0.10 1.00 | Pen 20.91 0.85
+It    500    502 | T(s) 1.85 | Feas 28 410.00 412.44 | Inf 48 405.41 406.54 | Div 0.59 0.34 | Feas 0.14 1.00 | Pen 25.59 0.38
+It   1000   1002 | T(s) 3.27 | Feas 37 410.00 411.28 | Inf 38 405.35 407.31 | Div 0.50 0.47 | Feas 0.16 1.00 | Pen 21.75 0.17
+It   1500   1502 | T(s) 4.70 | Feas 29 410.00 411.32 | Inf 32 405.36 407.29 | Div 0.52 0.48 | Feas 0.22 1.00 | Pen 22.19 0.10
+----- GENETIC ALGORITHM FINISHED AFTER 1607 ITERATIONS. TIME SPENT: 5.001
+cost:  410.0 * 2.5 = 1025
+time:  3.001
 num of routes:  5
-routes:  [[12, 30, 7, 17, 23, 5, 22], [21, 6, 4, 14, 25, 1], [16, 26, 10, 29, 20, 13], [9, 19, 3, 28, 24], [11, 2, 27, 8, 18, 15]]
+routes:  [[16, 26, 10, 29, 20, 13], [24, 28, 3, 19, 9], [12, 30, 7, 17, 23, 5, 22], [1, 25, 4, 14, 6, 21], [11, 15, 18, 8, 27, 2]]
 
 hs
 ----- FLEET SIZE SPECIFIED: SET TO 1000 VEHICLES
 ----- INSTANCE SUCCESSFULLY LOADED WITH 30 CLIENTS AND 1000 VEHICLES
 ----- BUILDING INITIAL POPULATION
 ----- STARTING GENETIC ALGORITHM
-It      0      2 | T(s) 0.32 | Feas 60 216.85 216.85 | NO-INFEASIBLE | Div 0.00 -1.00 | Feas 1.00 1.00 | Pen 59.37 0.85
-It    500    502 | T(s) 1.84 | Feas 60 216.85 219.33 | Inf 20 233.25 233.25 | Div 0.09 0.00 | Feas 0.87 1.00 | Pen 26.34 0.38
-It   1000   1002 | T(s) 3.51 | Feas 64 216.85 216.85 | Inf 50 203.37 206.30 | Div 0.00 0.10 | Feas 0.59 1.00 | Pen 11.69 0.17
------ GENETIC ALGORITHM FINISHED AFTER 1354 ITERATIONS. TIME SPENT: 5.001
-cost:  216.853 * 2 = 433.706
-time:  5.001
+It      0      2 | T(s) 0.21 | Feas 60 216.00 217.08 | NO-INFEASIBLE | Div 0.08 -1.00 | Feas 1.00 1.00 | Pen 59.24 0.85
+It    500    502 | T(s) 1.10 | Feas 27 216.00 226.80 | NO-INFEASIBLE | Div 0.35 -1.00 | Feas 1.00 1.00 | Pen 26.29 0.38
+It   1000   1002 | T(s) 2.08 | Feas 30 216.00 225.24 | Inf 48 202.83 203.79 | Div 0.33 0.12 | Feas 0.56 1.00 | Pen 11.66 0.17
+It   1500   1502 | T(s) 3.33 | Feas 62 216.00 216.00 | Inf 40 199.61 205.41 | Div 0.03 0.22 | Feas 0.44 1.00 | Pen 10.31 0.10
+It   2000   2002 | T(s) 4.62 | Feas 56 216.00 218.04 | Inf 37 200.60 208.32 | Div 0.12 0.25 | Feas 0.25 1.00 | Pen 10.73 0.10
+----- GENETIC ALGORITHM FINISHED AFTER 2131 ITERATIONS. TIME SPENT: 5.006
+cost:  216.0 * 2 = 432
+time:  3.006
 num of routes:  2
-routes:  [[21, 6, 13, 20, 29, 10, 5, 23, 17, 7, 30, 3, 28, 12, 24, 8, 27, 18, 2, 11], [1, 25, 4, 14, 26, 22, 19, 16, 9, 15]]
+routes:  [[1, 25, 4, 14, 26, 22, 19, 16, 9, 15], [11, 2, 18, 27, 8, 24, 12, 28, 3, 30, 7, 17, 23, 5, 10, 29, 20, 13, 6, 21]]
 
 ys
 ----- FLEET SIZE SPECIFIED: SET TO 1000 VEHICLES
 ----- INSTANCE SUCCESSFULLY LOADED WITH 30 CLIENTS AND 1000 VEHICLES
 ----- BUILDING INITIAL POPULATION
 ----- STARTING GENETIC ALGORITHM
-It      0      2 | T(s) 0.33 | Feas 60 175.48 176.46 | NO-INFEASIBLE | Div 0.06 -1.00 | Feas 1.00 1.00 | Pen 230.49 0.85
-It    500    502 | T(s) 1.68 | Feas 27 175.49 182.03 | NO-INFEASIBLE | Div 0.20 -1.00 | Feas 1.00 1.00 | Pen 102.27 0.38
-It   1000   1002 | T(s) 3.02 | Feas 35 175.49 179.45 | NO-INFEASIBLE | Div 0.14 -1.00 | Feas 1.00 1.00 | Pen 45.38 0.17
-It   1500   1502 | T(s) 4.29 | Feas 43 175.48 177.98 | NO-INFEASIBLE | Div 0.11 -1.00 | Feas 1.00 1.00 | Pen 20.13 0.10
------ GENETIC ALGORITHM FINISHED AFTER 1759 ITERATIONS. TIME SPENT: 5.002
-cost:  175.48499999999999 * 5 = 877.425
-time:  5.002
+It      0      2 | T(s) 0.21 | Feas 60 175.00 175.96 | NO-INFEASIBLE | Div 0.11 -1.00 | Feas 1.00 1.00 | Pen 230.00 0.85
+It    500    502 | T(s) 1.10 | Feas 27 175.00 187.72 | NO-INFEASIBLE | Div 0.32 -1.00 | Feas 1.00 1.00 | Pen 102.05 0.38
+It   1000   1002 | T(s) 1.98 | Feas 35 175.00 183.60 | NO-INFEASIBLE | Div 0.25 -1.00 | Feas 1.00 1.00 | Pen 45.28 0.17
+It   1500   1502 | T(s) 2.84 | Feas 43 175.00 179.04 | NO-INFEASIBLE | Div 0.19 -1.00 | Feas 1.00 1.00 | Pen 20.09 0.10
+It   2000   2002 | T(s) 3.71 | Feas 51 175.00 176.92 | NO-INFEASIBLE | Div 0.15 -1.00 | Feas 1.00 1.00 | Pen 8.91 0.10
+It   2500   2502 | T(s) 4.58 | Feas 59 175.00 175.72 | NO-INFEASIBLE | Div 0.12 -1.00 | Feas 1.00 1.00 | Pen 3.96 0.10
+----- GENETIC ALGORITHM FINISHED AFTER 2733 ITERATIONS. TIME SPENT: 5.001
+cost:  175.0 * 5 = 875
+time:  3.001
 num of routes:  1
-routes:  [[15, 1, 21, 6, 25, 9, 16, 19, 22, 26, 14, 4, 13, 20, 29, 10, 5, 23, 17, 7, 30, 3, 28, 12, 24, 8, 27, 18, 2, 11]]
+routes:  [[11, 15, 1, 21, 6, 25, 9, 16, 19, 22, 26, 14, 4, 13, 20, 29, 10, 5, 23, 17, 7, 30, 3, 28, 12, 24, 8, 27, 18, 2]]
 
 qt
-PS C:\Users\27978\Desktop\2025年电工杯竞赛赛题\B题> & D:/1Tools/A/envs/yolo/python.exe c:/Users/27978/Desktop/2025年电工杯竞赛赛题/B题/pro2_planB.py
 ----- FLEET SIZE SPECIFIED: SET TO 1000 VEHICLES
 ----- INSTANCE SUCCESSFULLY LOADED WITH 30 CLIENTS AND 1000 VEHICLES
 ----- BUILDING INITIAL POPULATION
 ----- STARTING GENETIC ALGORITHM
-It      0      2 | T(s) 0.39 | Feas 38 257.64 261.69 | Inf 43 254.91 258.62 | Div 0.36 0.28 | Feas 0.57 1.00 | Pen 32.93 0.85
-It    500    502 | T(s) 2.19 | Feas 30 257.64 261.67 | Inf 50 254.86 256.74 | Div 0.39 0.26 | Feas 0.09 1.00 | Pen 28.55 0.38
-It   1000   1002 | T(s) 4.15 | Feas 53 257.64 259.60 | Inf 29 254.88 259.08 | Div 0.31 0.36 | Feas 0.14 1.00 | Pen 29.70 0.17
------ GENETIC ALGORITHM FINISHED AFTER 1242 ITERATIONS. TIME SPENT: 5.003
-cost:  257.639 * 1.8 = 463.7502
-time:  5.003
+It      0      2 | T(s) 0.27 | Feas 39 255.00 260.00 | Inf 39 253.76 257.65 | Div 0.36 0.31 | Feas 0.61 1.00 | Pen 32.86 0.85
+It    500    502 | T(s) 1.72 | Feas 49 255.00 258.80 | Inf 46 253.56 255.50 | Div 0.33 0.28 | Feas 0.22 1.00 | Pen 27.93 0.38
+It   1000   1002 | T(s) 3.25 | Feas 60 255.00 257.60 | Inf 38 252.02 255.39 | Div 0.30 0.31 | Feas 0.17 1.00 | Pen 24.21 0.17
+It   1500   1502 | T(s) 4.70 | Feas 53 255.00 258.12 | Inf 63 252.23 253.79 | Div 0.31 0.23 | Feas 0.26 1.00 | Pen 24.70 0.10
+----- GENETIC ALGORITHM FINISHED AFTER 1593 ITERATIONS. TIME SPENT: 5.004
+cost:  255.0 * 1.8 = 459
+time:  3.004
 num of routes:  3
-routes:  [[15, 9, 16, 19, 17, 7, 30, 3, 28, 12, 24, 8, 27, 18], [2, 11], [1, 25, 4, 14, 26, 22, 5, 23, 10, 29, 20, 13, 6, 21]]
+routes:  [[2, 11], [15, 9, 16, 19, 17, 7, 30, 3, 28, 12, 24, 8, 27, 18], [21, 6, 13, 20, 29, 10, 23, 5, 22, 26, 14, 4, 25, 1]]

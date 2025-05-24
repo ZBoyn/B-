@@ -23,8 +23,9 @@ def read_data(file_path):
         for j in range(n+ 1):
             xi, yi = coords[i]
             xj, yj = coords[j]
-            dist = np.hypot(xi - xj, yi - yj)  # 计算欧几里得距离
-            row.append(round(dist, 3))  # 保留三位小数
+            dist = np.hypot(xi - xj, yi - yj)
+            row.append(round(dist))
+            # row.append(round(dist, 3))  # 保留三位小数
         distance_matrix.append(row)
         
     return n, coords, w, Q, distance_matrix
@@ -38,6 +39,8 @@ def calculate_distance(n, coords):
                 dx = coords[i][0] - coords[j][0]
                 dy = coords[i][1] - coords[j][1]
                 d[i,j] = math.hypot(dx, dy)
+                # 取整到整数
+                d[i,j] = round(d[i,j])
     return d, nodes
 
 def route_length(route, coords):

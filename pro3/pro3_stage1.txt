@@ -1,0 +1,4 @@
+
+最优组合为：[True, True, False, False, True, True]，最小总成本为：2571.40
+
+最优组合为：[True, False, True, True, True, True]，最小总成本为：2612.10
